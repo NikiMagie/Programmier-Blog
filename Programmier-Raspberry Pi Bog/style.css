@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:ital,wght@1,900&family=Mountains+of+Christmas:wght@700&family=Quintessential&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_bild {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.logobild {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.logo_text a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: darkgrey;
+}
+
+.slider img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.mitte {
+    padding-left: 5%;
+    padding-left: 5%;
+}
+
+.mitte h2 {
+    color: #00AA55;
+}
+
+.mitte img {
+    width: 35%;
+    border-radius: 5px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.unterertext_blogeinträge {
+    background-color: rgba(187, 173, 199, 0.274);
+    width: 35%;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #00AA55;
+}
+
+.mitte p img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.social_icons a {
+    padding: 10px;
+    margin: 5px;
+}
+
+.unten p {
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.rechtliches {
+    display: flex;
+    justify-content: center;
+}
+
+.unten {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 15px;
+    background: #3770b9;
+}
+
+.social_storyone {
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+}
+
+.social_website {
+    background-image: linear-gradient(to right, red, yellow);
+    border-radius: 5px;
+    color: #04753d;
+}
+
+.social_github {
+    background-color: rgb(238, 50, 50);
+    border-radius: 5px;
+    color: white;
+}
+
+.mitte_blogartikel {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#img-netlify {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.Button-login button {
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: hsl(219, 90%, 44%);
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    size: 5%;
+    min-height: 5vh;
+    width: 10%;
+}
+
+.Button-login button:hover {
+    background-color: hsl(219, 90%, 30%);
+}
+
+#login-link {
+    color: white;
+}

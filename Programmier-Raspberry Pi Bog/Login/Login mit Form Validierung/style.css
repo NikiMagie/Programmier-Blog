@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #222831;
+}
+
+form {
+    height: 550px;
+    width: 550px;
+    background-color: #222831;
+    box-shadow: -15px -15px 0px 23px inset rgb(76, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+input {
+    height: 60px;
+    width: 190px;
+    margin: 10px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 1000px;
+    background-color: #373e49;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.534);
+}
+
+input:hover {
+    background-color: #414857;
+}
+
+input:focus {
+    outline: none;
+    width: 220px;
+    background-color: #414857;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: rgb(76, 0, 255);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 1000px;
+    transition: 0.3s;
+}
+
+button:hover {
+    width: 135px;
+}
+
+button:focus {
+    outline: none;
+    width: 135px;
+}
+
+.red-message {
+    color: rgb(255, 0, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.red-input {
+    border: 2px solid rgb(255, 0, 55);
+}
